@@ -26,21 +26,9 @@ createForm.addEventListener("submit", async (event) => {
         googleMapsLink: document.querySelector("#googleMapsLink").value,
     };
 
-    if (travelDestination.title != "") {
-        if (travelDestination.description != "") {
+    
             const response = await postData(travelDestination);
-            if (response.status === 201) {
-                console.log("Traveldestination is created!")
-            } else {
-                console.log("ERROR: Something went wrong!")    
-            }
-        }
-        } else {
-            console.log("ERROR: Your title is empty!")
-        }
-    } else {
-        console.log("ERROR: Your title is empty!")
-    }
+         
 });
 
 

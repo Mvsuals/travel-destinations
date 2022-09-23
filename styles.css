@@ -1,0 +1,37 @@
+input{
+    margin: 10px;
+    border-radius: 5px;
+    border:  1px;
+    width: 100%;
+}
+textarea{
+    margin: 10px;
+    border-radius: 5px;
+    border:  1px;
+    width: 100%;
+}
+
+
+.card{
+border:  px;
+border-radius: 20px;
+justify-content: center;
+width: 100%;
+background: linear-gradient(90deg, rgb(228, 228, 255) 0%, rgb(232, 232, 253) 35%, rgb(191, 244, 255) 100%);
+padding: 20px;
+
+box-shadow: 5px 5px 20px rgb(207, 207, 207) ;
+
+
+}
+h2{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.btn{
+    background-color: white;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: blue;
+  }
